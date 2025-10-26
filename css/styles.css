@@ -373,8 +373,9 @@ a {
     background-size: cover;
     background-position: center;
     background-color: #2e2f42;
-    padding: 88px 0;
+    padding: 112px 0;
     text-align: center;
+    color: #fff;
 
     min-height: 60vh;
     display: flex;
