@@ -373,7 +373,7 @@ a {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-size: cover;
     background-position: center;
-    /* padding: 112px 0;
+    padding: 112px 0;
     text-align: center;
     color: #fff;
 
@@ -381,7 +381,7 @@ a {
     display: flex;
     align-items: center;
     justify-content: center;
-    box-sizing: border-box;*/
+    box-sizing: border-box;
 }
 
 @media (min-width: 768px) {
