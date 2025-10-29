@@ -54,20 +54,19 @@ a {
 
 /*common*/
 .container {
-    width: 100%;
     max-width: 100%;
     padding: 0 16px;
     margin: 0 auto;
-    box-sizing: border-box;
 }
 
-@media (min-width:768px) {
+@media screen and (min-width:768px) {
     .container {
         max-width: 768px;
+        padding: 0 32px;
     }
 }
 
-@media (min-width: 1158px) {
+@media screen and (min-width: 1158px) {
     .container {
         max-width: 1158px;
         padding: 0 15px;
@@ -80,7 +79,33 @@ a {
 .header {
     border-bottom: 1px solid #e7e9fc;
     box-shadow: none;
-    /* box-shadow: 0 1px 6px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 2px 1px 0 rgba(46, 47, 66, 0.08);*/
+    padding: 16px 0;
+}
+
+.nav-list {
+    display: none;
+}
+
+@media screen and (min-width:768px) {
+    .nav-list {
+        display: flex;
+        gap: 40px;
+    }
+
+    .header {
+        padding: 24px 0;
+    }
+}
+
+@media screen and (min-width:1158px) {
+    .header {
+        padding: 24px 0;
+    }
+
+    .nav-list {
+        gap: 40px;
+    }
+
 }
 
 .header-container {
