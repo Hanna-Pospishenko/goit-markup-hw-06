@@ -641,7 +641,7 @@ a {
 
     .two-item {
         padding: 32px 12px;
-        .two-item width: (calc(25% - 18px));
+
     }
 
 }
@@ -662,7 +662,7 @@ a {
     }
 
     .team-main {
-        gap: 24px;
+        gap: 28px;
     }
 }
 
@@ -796,9 +796,6 @@ a {
 }
 
 @media screen and (min-width: 1158px) {
-    .team {
-        padding: 120px 0;
-    }
 
     .team-title {
         font-size: 36px;
@@ -910,7 +907,7 @@ a {
     }
 
     .list-portfolio {
-        gap: 24px;
+        gap: 28px;
     }
 
     .p-link {
@@ -1139,6 +1136,7 @@ a {
         flex-direction: row;
         align-items: baseline;
         text-align: left;
+        gap: 40px;
     }
 
     .footer-text {
@@ -1165,7 +1163,7 @@ a {
     }
 
     .page-footer {
-        padding: 100px 0;
+        padding: 72px 0;
     }
 }
 
