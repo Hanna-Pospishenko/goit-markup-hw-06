@@ -436,7 +436,7 @@ a {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
     background-size: cover;
     background-position: center;
-    padding: 72px 72px;
+    padding: auto;
     text-align: center;
     color: #fff;
 
@@ -465,13 +465,13 @@ a {
 
 
 .main-text {
-    font-size: 32px;
+    font-size: 36px;
     font-weight: 700;
-    line-height: 1.05;
+    line-height: 1.11111;
     letter-spacing: 0.02em;
     color: #fff;
     max-width: 320px;
-    margin: 0 auto 24px;
+    margin: 72px 52px;
     padding: 0 8px;
     text-align: center;
 
@@ -684,7 +684,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 12px;
+
     flex-basis: calc((100% - 72px) / 4);
 }
 
