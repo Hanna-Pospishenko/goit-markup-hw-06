@@ -470,8 +470,8 @@ a {
     line-height: 1.11111;
     letter-spacing: 0.02em;
     color: #fff;
-    max-width: 320px;
-    margin: 72px 52px;
+    max-width: 216px;
+    margin: 72px 56px auto;
     padding: 0 8px;
     text-align: center;
 
